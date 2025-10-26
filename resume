@@ -10,14 +10,13 @@
     </head>
     <body>
         <div class="container">
-            <h1>Иван Иванов</h1>
-            <h2>Веб-разработчик</h2>
-            <p>Email: ivan@example.com | Телефон: +7 (999) 123-45-67</p>
+            <h1>Тимофеева Виктория</h1>
+            <h2>Программист</h2>
+            <p>Email: titmofeevaviktoria786@mail.ru | Телефон: +8 (800) 535-35-35</p>
             
-            <h3>Опыт работы</h3>
+            <h3>Опыт</h3>
             <ul>
-                <li>Компания "А" (2020-2023) - Junior Developer</li>
-                <li>Компания "Б" (2023-н.в.) - Middle Developer</li>
+                <li>ОПК (2023-2027) - Студент</li>
             </ul>
             
             <h3>Навыки</h3>
@@ -25,7 +24,15 @@
                 <li>HTML, CSS, JavaScript</li>
                 <li>Git, GitHub</li>
             </ul>
-            <!-- Кнопка будет добавлена на следующем шаге -->
+            <button id="subscribeBtn">Подписаться на новости</button>
+    
+    <script>
+        document.getElementById('subscribeBtn').addEventListener('click', function() {
+            alert('Спасибо за подписку!');
+        });
+    </script>
+    
+
         </div>
     </body>
     </html>
