@@ -1,0 +1,32 @@
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мое Резюме</title>
+        <style>
+            body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+            h1, h2 { color: #333; }
+            .container { max-width: 800px; margin: auto; }
+            button { background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Иван Иванов</h1>
+            <h2>Веб-разработчик</h2>
+            <p>Email: ivan@example.com | Телефон: +7 (999) 123-45-67</p>
+            
+            <h3>Опыт работы</h3>
+            <ul>
+                <li>Компания "А" (2020-2023) - Junior Developer</li>
+                <li>Компания "Б" (2023-н.в.) - Middle Developer</li>
+            </ul>
+            
+            <h3>Навыки</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Git, GitHub</li>
+            </ul>
+            <!-- Кнопка будет добавлена на следующем шаге -->
+        </div>
+    </body>
+    </html>
+    
